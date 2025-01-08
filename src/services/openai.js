@@ -26,7 +26,7 @@ export class OpenAIService {
           'Authorization': `Bearer ${this.apiKey}`
         },
         body: JSON.stringify({
-          model: 'gpt-4o-mini',
+          model: 'gpt-3.5-turbo',
           messages,
           temperature: 0.7,
           max_tokens: 150
